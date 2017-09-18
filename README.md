@@ -1,6 +1,19 @@
 # Java操作MongoDB数据库
 
 ---
+<!-- TOC -->
+
+- [Java操作MongoDB数据库](#java操作mongodb数据库)
+    - [简介](#简介)
+    - [MongoDB 介绍](#mongodb-介绍)
+        - [数据库安装](#数据库安装)
+    - [MongoDB使用](#mongodb使用)
+        - [MongoDB可视化工具](#mongodb可视化工具)
+    - [Java操作MongoDB](#java操作mongodb)
+    - [总结](#总结)
+    - [相关资料](#相关资料)
+
+<!-- /TOC -->
 
 ## 简介
 
@@ -67,7 +80,7 @@ net:
 
 使用`mongo`命令即可进入MongoDB控制台。
 
-![](doc/1.png)
+![](https://raw.githubusercontent.com/LiushuiXiaoxia/JavaMongodb/master/doc/1.png)
 
 ```bash
 show dbs                     show database names
@@ -165,7 +178,7 @@ WriteResult({
 
 用Robo 3T查看数据就很方便了。
 
-![](doc/2.png)
+![](https://raw.githubusercontent.com/LiushuiXiaoxia/JavaMongodb/master/doc/2.png)
 
 ## Java操作MongoDB
 
